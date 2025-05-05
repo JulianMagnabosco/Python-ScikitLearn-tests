@@ -35,10 +35,11 @@ print(lr.intercept_)
 print("Presicion")
 print(lr.score(x_train,y_train))
 
-# plt.scatter(x_test,y_test)
-# plt.plot(x_test,y_predict,color="red",linewidth=3)
-# plt.xlabel("Datos x")
-# plt.ylabel("Datos y")
-# plt.title("Resultado")
-# plt.show()
+for i in x_test.shape(1):
+    plt.scatter(x_test[:, i],y_test)
+plt.plot(x_test,y_predict,color="red",linewidth=3)
+plt.xlabel("Datos x")
+plt.ylabel("Datos y")
+plt.title("Resultado")
+plt.show()
 
