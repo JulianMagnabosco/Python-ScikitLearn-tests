@@ -27,12 +27,12 @@ lr.fit(x_train,y_train)
 
 y_predict = lr.predict(x_test)
 
-print("y=a.x+b")
-print("Pendiente (a)")
+print("----y=a1.x^2 + a2.x +b----\n")
+print("----Pendiente (a)----")
 print(lr.coef_)
-print("Intersección(b)")
+print("----Intersección (b)----")
 print(lr.intercept_)
-print("Presicion")
+print("----Presicion----")
 print(lr.score(x_train,y_train))
 
 plt.scatter(x_test,y_test)
