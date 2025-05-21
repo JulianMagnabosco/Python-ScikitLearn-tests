@@ -1,7 +1,6 @@
 import numpy as np
 from sklearn import datasets, linear_model,model_selection,preprocessing,svm
 import matplotlib.pyplot as plt
-import pandas as pd  # doctest: +SKIP
 import numpy as np
 
 boston = datasets.load_diabetes()
